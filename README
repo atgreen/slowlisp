@@ -1,0 +1,25 @@
+Zach Beane's Quicklisp** project is amazing.  It's a library manager
+and repository for over 300 Common Lisp libraries.  Thank you Zach!
+Development for Common Lisp will never be the same.
+
+For production deployment on Linux, on the other hand, packaging
+projects in RPM format is often the way to go.
+
+Slowlisp is simply a staging area for Quicklisp derived spec files
+that I hope to one day submit to the Fedora project.
+
+Fedora uses Common Lisp Controller as a library manager.
+
+Package installation works like so...
+
+$ yum install hunchentoot
+
+And then load it with Common Lisp Controller into your favorite Lisp like so...
+
+(clc:clc-require :huchentoot)
+
+
+Anthony Green
+
+
+** http://www.quicklisp.org
