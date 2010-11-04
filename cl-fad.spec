@@ -54,3 +54,6 @@ done
 %{_datadir}/common-lisp/systems/cl-fad.asd
 
 %changelog
+* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 0.6.3-1
+- Created.
+

@@ -57,3 +57,5 @@ done
 %{_datadir}/common-lisp/systems/trivial-gray-streams.asd
 
 %changelog
+* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 20101006cvs-1
+- Created.

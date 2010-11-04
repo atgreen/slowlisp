@@ -2,7 +2,7 @@
 
 Name:           hunchentoot
 Version:        1.1.1
-Release:        3%{?dist}
+Release:        1%{?dist}
 Summary:        A web server written in Common Lisp.
 
 Group:          System Environment/Daemons
@@ -100,3 +100,5 @@ done
 %{_datadir}/common-lisp/systems/hunchentoot.asd
 
 %changelog
+* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 1.1.1-1
+- Created.

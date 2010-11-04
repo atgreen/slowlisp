@@ -70,3 +70,5 @@ done
 %{_datadir}/common-lisp/systems/babel-streams.asd
 
 %changelog
+* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 20101006darcs-1
+- Created.

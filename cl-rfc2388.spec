@@ -55,3 +55,5 @@ done
 %{_datadir}/common-lisp/systems/rfc2388.asd
 
 %changelog
+* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 20101006http-1
+- Created.

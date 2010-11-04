@@ -60,3 +60,5 @@ done
 %{_datadir}/common-lisp/systems/flexi-streams.asd
 
 %changelog
+* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 1.0.7-1
+- Created.

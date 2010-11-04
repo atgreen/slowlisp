@@ -16,7 +16,7 @@ $ yum install hunchentoot
 
 And then load it with Common Lisp Controller into your favorite Lisp like so...
 
-(clc:clc-require :huchentoot)
+(clc:clc-require :hunchentoot)
 
 
 Anthony Green
