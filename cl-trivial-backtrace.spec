@@ -66,5 +66,5 @@ done
 %{_datadir}/common-lisp/systems/trivial-backtrace.asd
 
 %changelog
-* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 20101006git-1
+* Wed Nov  3 2010 Anthony Green <green@moxielogic.com> - 20101006git-1
 - Created.

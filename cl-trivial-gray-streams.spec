@@ -1,7 +1,7 @@
 Name:           cl-trivial-gray-streams
 Version:        20101006cvs
 Release:        1%{?dist}
-Summary:        Gray stream compatibility library for common lisp.
+Summary:        Gray stream compatibility library for Common Lisp.
 
 Group:          System/Libraries
 License:        BSD
@@ -57,5 +57,5 @@ done
 %{_datadir}/common-lisp/systems/trivial-gray-streams.asd
 
 %changelog
-* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 20101006cvs-1
+* Wed Nov  3 2010 Anthony Green <green@moxielogic.com> - 20101006cvs-1
 - Created.

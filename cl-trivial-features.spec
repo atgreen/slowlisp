@@ -55,5 +55,5 @@ done
 %{_datadir}/common-lisp/systems/trivial-features.asd
 
 %changelog
-* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 20101006darcs-1
+* Wed Nov  3 2010 Anthony Green <green@moxielogic.com> - 20101006darcs-1
 - Created.
