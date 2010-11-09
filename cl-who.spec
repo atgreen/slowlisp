@@ -26,10 +26,10 @@ Requires(preun): common-lisp-controller
 %install
 %{__rm} -rf %{buildroot}
 
-mkdir -m 755 -p %{buildroot}%{_datadir}/common-lisp/source/cl-who/src
+mkdir -m 755 -p %{buildroot}%{_datadir}/common-lisp/source/cl-who
 mkdir -m 755 -p %{buildroot}%{_datadir}/common-lisp/systems
 for s in *.lisp; do
-  install -m 644 $s %{buildroot}%{_datadir}/common-lisp/source/cl-who/src;
+  install -m 644 $s %{buildroot}%{_datadir}/common-lisp/source/cl-who;
 done;
 install -m 644 cl-who.asd %{buildroot}%{_datadir}/common-lisp/source/cl-who;
 cd %{buildroot}%{_datadir}/common-lisp/source/cl-who
