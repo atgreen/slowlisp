@@ -1,12 +1,16 @@
+%define QLYEAR   2010
+%define QLMONTH  11 
+%define QLDAY    07
+
 Name:           cl-alexandria
-Version:        20101006git
+Version:        %{QLYEAR}%{QLMONTH}%{QLDAY}git
 Release:        1%{?dist}
 Summary:        A library of useful utilities for Common Lisp
 
 Group:          System/Libraries
 License:        BSD
-URL:            http://beta.quicklisp.org/archive/alexandria/2010-10-06/alexandria-20101006-git.tgz
-Source0:        alexandria-20101006-git.tgz
+URL:            http://beta.quicklisp.org/archive/alexandria/%{QLYEAR}-%{QLMONTH}-%{QLDAY}/alexandria-%{QLYEAR}%{QLMONTH}%{QLDAY}-git.tgz
+Source0:        alexandria-%{QLYEAR}%{QLMONTH}%{QLDAY}-git.tgz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildArch:      noarch
@@ -22,7 +26,7 @@ portability of Common Lisp code according to its own idiosyncratic and
 rather conservative aesthetic.
 
 %prep
-%setup -q -n alexandria-20101006-git
+%setup -q -n alexandria-%{QLYEAR}%{QLMONTH}%{QLDAY}-git
 
 %build
 
@@ -56,5 +60,8 @@ done
 %{_datadir}/common-lisp/systems/alexandria.asd
 
 %changelog
-* Wed Nov  3 2010 Anthony Green <green@moxielogic.com> - 20101006git-1
+* Mon Nov  8 2010 Anthony Green <green@moxielogic.com> - 20101107git-1
+- Upgraded.
+
+* Wed Nov  4 2010 Anthony Green <green@moxielogic.com> - 20101006git-1
 - Created.
